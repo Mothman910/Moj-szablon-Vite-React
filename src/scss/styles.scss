@@ -90,6 +90,12 @@ $primary: #7952b3;
 
 body {
   padding: 1.5rem;
+  animation: background-fade 1s forwards;
+  transition: all 1s ease-in-out;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  // background-image: url("../images/1b044192988175.5e5927a632263.jpg");
 }
 
 .card {
