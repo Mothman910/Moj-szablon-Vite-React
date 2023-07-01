@@ -12,7 +12,7 @@ export default function QuoteMachine() {
     setCurrentIndex((prevIndex) => {
       return prevIndex === quotes.length - 1 ? 0 : prevIndex + 1;
     });
-    document.body.style.backgroundImage = `url("../images/${
+    document.body.style.backgroundImage = `url("./images/${
       imagesTitles[Math.round(Math.random() * imagesTitles.length)]
     }")`;
     // document.body.style.backgroundColor =
