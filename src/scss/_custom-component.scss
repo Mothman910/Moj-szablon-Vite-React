@@ -1,10 +1,14 @@
 // Example of a custom component
 
-@keyframes background-fade {
-  0% {
-    background-color: initial;
-  }
-  100% {
-    background-color: new-color;
-  }
+.card-footer {
+  color: #f3e5ffb6;
+}
+
+.button-row {
+  margin: 0;
+  padding: 0;
+}
+
+#tweet-quote {
+  background-color: #379be9;
 }
