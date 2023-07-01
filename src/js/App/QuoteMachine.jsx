@@ -76,7 +76,12 @@ export default function QuoteMachine() {
             </div>
           </div>
         </div>
-        <div className="card-footer">{nextRefresh}</div>
+        <div className="card-footer row justify-content-center">
+          <span>{nextRefresh}</span>
+          <div className="row position-absolute justify-content-end">
+            <span className="w-auto signature">Autor: Adam Fijałkowski</span>
+          </div>
+        </div>
       </div>
     </div>
   );
