@@ -1,5 +1,5 @@
 // Import our custom CSS
-import "../scss/styles.scss";
+// import "../scss/styles.scss";
 
 // Import React
 import React from "react";

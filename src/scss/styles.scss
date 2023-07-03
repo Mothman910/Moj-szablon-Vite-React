@@ -23,38 +23,43 @@
 //
 // Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
 
+// Required functions
+@import "bootstrap/scss/functions";
+
 // Toggle global options
 $enable-gradients: true;
 $enable-shadows: true;
-
 $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
 
 // Customize some defaults
 $body-color: #333;
-$body-bg: #fff;
+$body-bg: beige;
 $border-radius: 0.4rem;
-$success: #7952b3;
-$primary: #7952b3;
+$card-bg: white;
+$btn-close-bg: url("../assets/svg/Arrows.svg");
 
 // Required
-@import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/variables-dark";
+
+// Include any default map overrides here
+
+// Required
 @import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
-@import "bootstrap/scss/utilities";
 @import "bootstrap/scss/root";
+@import "bootstrap/scss/utilities";
 @import "bootstrap/scss/reboot";
 
 @import "bootstrap/scss/type";
 // @import "bootstrap/scss/images";
-@import "bootstrap/scss/containers";
+// @import "bootstrap/scss/containers";
 @import "bootstrap/scss/grid";
 // @import "bootstrap/scss/tables";
 // @import "bootstrap/scss/forms";
-@import "bootstrap/scss/buttons";
-@import "bootstrap/scss/transitions";
-@import "bootstrap/scss/dropdown";
+// @import "bootstrap/scss/buttons";
+// @import "bootstrap/scss/transitions";
+// @import "bootstrap/scss/dropdown";
 // @import "bootstrap/scss/button-group";
 // @import "bootstrap/scss/nav";
 // @import "bootstrap/scss/navbar"; // Requires nav
@@ -68,13 +73,15 @@ $primary: #7952b3;
 // @import "bootstrap/scss/list-group";
 @import "bootstrap/scss/close";
 // @import "bootstrap/scss/toasts";
-@import "bootstrap/scss/modal"; // Requires transitions
+// @import "bootstrap/scss/modal"; // Requires transitions
 // @import "bootstrap/scss/tooltip";
-@import "bootstrap/scss/popover";
+// @import "bootstrap/scss/popover";
 // @import "bootstrap/scss/carousel";
 // @import "bootstrap/scss/spinners";
-@import "bootstrap/scss/offcanvas"; // Requires transitions
-// @import "bootstrap/scss/placeholders";
+// @import "bootstrap/scss/offcanvas"; // Requires transitions
+@import "bootstrap/scss/placeholders";
+
+// Optionaly
 
 // Helpers
 @import "bootstrap/scss/helpers";
@@ -90,39 +97,4 @@ $primary: #7952b3;
 
 body {
   padding: 1.5rem;
-  animation: background-fade 1s forwards;
-  transition: all 1s ease-in-out;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  // background-image: url("../images/1b044192988175.5e5927a632263.jpg");
-}
-
-.card {
-  max-width: 80%;
-  background-color: #77777725;
-  backdrop-filter: blur(3px);
-  color: aliceblue;
-  border-color: #fff1f12d;
-}
-
-.buttons {
-  display: flex;
-}
-
-.button {
-  text-align: center;
-  width: 40px;
-  height: 38px;
-  border-radius: 3px;
-  color: #fff;
-  font-size: 1.2em;
-  padding-top: 5px;
-  z-index: 1;
-}
-
-#new-quote {
-  justify-self: center;
-  align-self: center;
-  z-index: 0;
 }
