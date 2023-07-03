@@ -6,11 +6,11 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 
 // Import Components
-import QuoteMachine from "./App/QuoteMachine.jsx";
+import DrumMachine from "./App/DrumMachine.jsx";
 
-const root = createRoot(document.getElementById("quote-box"));
+const root = createRoot(document.getElementById("Drum-box"));
 root.render(
   <>
-    <QuoteMachine />
+    <DrumMachine />
   </>
 );
