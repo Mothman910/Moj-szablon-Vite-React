@@ -8,7 +8,7 @@ import { createRoot } from "react-dom/client";
 // Import Components
 import DrumMachine from "./App/DrumMachine.jsx";
 
-const root = createRoot(document.getElementById("Drum-box"));
+const root = createRoot(document.getElementById("root"));
 root.render(
   <>
     <DrumMachine />

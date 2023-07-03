@@ -4,7 +4,6 @@ import colorsPalette from "../data/colors-palette.json";
 
 export default function DrumMachine() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [nextRefresh, setNextRefresh] = useState(timeToNextQuote);
 
   const handleClick = () => {};
 
