@@ -1,1 +1,19 @@
 // Example of a custom component
+
+#pad-box {
+  grid-column: 1 / 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: min-content;
+}
+
+.pads {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(101, 72, 206);
+}
+
+#control-box {
+  grid-column: 4 / -1;
+  display: grid;
+}

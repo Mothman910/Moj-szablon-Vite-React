@@ -71,7 +71,7 @@ $btn-close-bg: url("../assets/svg/Arrows.svg");
 // @import "bootstrap/scss/alert";
 // @import "bootstrap/scss/progress";
 // @import "bootstrap/scss/list-group";
-@import "bootstrap/scss/close";
+// @import "bootstrap/scss/close";
 // @import "bootstrap/scss/toasts";
 // @import "bootstrap/scss/modal"; // Requires transitions
 // @import "bootstrap/scss/tooltip";
@@ -97,4 +97,11 @@ $btn-close-bg: url("../assets/svg/Arrows.svg");
 
 body {
   padding: 1.5rem;
+}
+
+#grid-box {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: min-content;
 }
