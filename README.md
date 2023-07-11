@@ -6,7 +6,7 @@ Include [Bootstrap](https://getbootstrap.com)'s source Sass and individual JavaS
 
 ```sh
 git clone https://github.com/Mothman910/Moj-szablon-Vite-React
-cd examples/vite/
+cd Moj-szablon-Vite-React
 npm install
 npm start
 ```
